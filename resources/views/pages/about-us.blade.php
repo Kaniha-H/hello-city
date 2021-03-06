@@ -1,6 +1,4 @@
-@extends('base')
-
-@section('title', 'About us | ' . config('app.name'))
+@extends('layouts/base', ['title' => 'About us'])
 
 @section('content')
     <img src="{{ asset('/images/akali.jpg') }}" alt="Akali"  class="my-12 rounded-full shadow-md h-32">
